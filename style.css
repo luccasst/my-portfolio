@@ -86,8 +86,8 @@ html{
 
 .linkedin-icon:hover,
 .github-icon:hover {
-    background-color: #000000; /* Altera a cor de fundo para branco */
-    color: #df120b; /* Altera a cor do ícone para vermelho */
+    background-color: #000000; 
+    color: #df120b; 
 }
 
 .home{
