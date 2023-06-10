@@ -56,7 +56,13 @@ html{
 }
 .navbar .menu li a:hover{
     color: #df120b;
+    border-bottom: 2px solid #df120b;
+    transition: all 0.45s;
 }
+.navbar.sticky .menu li a:hover {
+    border-bottom: 2px solid black;
+}
+
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
