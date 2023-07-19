@@ -1,0 +1,22 @@
+.ServicesSection {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .ServicesTitle {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .ServiceItem {
+    margin-bottom: 20px;
+  }
+  
+  .ServiceIcon {
+    font-size: 2rem;
+    color: #e31b6d;
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,100 @@
+.ProjectsSection {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+
+  .projectSection {
+    padding: 50px 0;
+  text-align: center;
+  }
+  
+  .ProjectTitle {
+    font-size: 3rem;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .ProjectItem {
+    margin-bottom: 20px;
+  }
+  
+  .ProjectImage {
+    
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-images{
+    background-color: #f0eeee;
+  }
+  
+  .title-h2 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+
+  .container-slider {
+    position: relative;
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    perspective: 1000px;
+  }
+  
+  .slider {
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+  }
+  
+  .on {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 1;
+  }
+  
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }
