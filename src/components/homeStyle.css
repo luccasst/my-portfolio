@@ -50,8 +50,7 @@ html{
     display: flex;
     position: absolute;
 }
-.linkedin-icon,
-.github-icon {
+.icon{
     display: inline-block;
     background: #df120b;
     color: #fff;

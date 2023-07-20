@@ -57,12 +57,12 @@ const Home = () => {
         <div className="icons">
           <div className="row">
             <a href="https://www.linkedin.com/in/lucas-santos-80033b229/" target="_blank">
-              <AiFillLinkedin name="logo-linkedin" className="linkedin-icon"></AiFillLinkedin>
+              <AiFillLinkedin name="logo-linkedin" className="icon"></AiFillLinkedin>
             </a>
           </div>
           <div className="row">
             <a href="https://github.com/luccasst" target="_blank">
-              <BsGithub name="logo-github" className="github-icon"></BsGithub>
+              <BsGithub name="logo-github" className="icon"></BsGithub>
             </a>
           </div>
         </div>
