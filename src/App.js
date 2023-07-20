@@ -7,8 +7,6 @@ import Projects from './components/Project';
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
-/* import GlobalStyles from "./styles/GlobalStyles"; */
-
 const App = () => {
   return (
     <>
