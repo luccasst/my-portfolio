@@ -62,8 +62,7 @@ html{
     transition: background-color 0.3s, color 0.3s;
 }
 
-.linkedin-icon:hover,
-.github-icon:hover {
+.icon:hover {
     background-color: #000000; 
     color: #df120b; 
 }
