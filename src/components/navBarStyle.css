@@ -98,15 +98,6 @@ html{
     
 }
 
-/* CSS */
-.rotate-icon {
-  transition: transform 0.3s ease;
-}
-
-.rotate-icon.active {
-  transform: rotate(90deg);
-}
-
 
 @media (max-width: 1300px){
     .navbar .max-width{
