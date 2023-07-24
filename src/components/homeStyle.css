@@ -1,29 +1,20 @@
-.HomeSection {
-    background-color: #1c1c1c;
-    color: #ffffff;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  .home-content {
+    margin: auto;
+    max-width: 900px;
   }
   
-  .HomeContent {
-    max-width: 800px;
-  }
-  
-  .HomeText1 {
+  .text-1 {
     font-size: 2rem;
     margin-bottom: 20px;
   }
   
-  .HomeText2 {
+  .text-2 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
-  .HomeText3 {
+  .text-3 {
     font-size: 1.5rem;
   }
   
@@ -41,8 +32,8 @@ html{
     scroll-behavior: smooth;
 }
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
+    position: relative;
+    max-width: 1900px;
     margin: auto;
 }
 

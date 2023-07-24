@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import './aboutStyle.css';
 import profileImage from '../Image/img-1.jpg';
+import curriculo from '../Image/curriculo.pdf';
 
 const About = () => {
   const texts = ["Desenvolvedor Full-Stack"];
@@ -54,6 +55,9 @@ const About = () => {
           <div className="column right">
             <div className="text">Sou Lucas e sou <span className="typing-2">{typingText}</span></div>
             <p>Me chamo Lucas, tenho 27 anos. Sou de Aracaju-SE, venho da área da construção civil, sou formado em Técnico de Edificações desde 2016 e dei início aos estudos na área da programação no ano de 2021, foi quando entrei na Trybe e hoje sou formado em desenvolvimento Web Full-Stack.</p>
+            <div>
+            <a href={curriculo} download="curriculo">Baixar meu currículo</a>
+            </div>
           </div>
         </div>
       </div>
